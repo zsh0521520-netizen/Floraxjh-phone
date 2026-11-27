@@ -69,3 +69,12 @@ html, body, .app-root {
   box-shadow: none !important;
   transform: none !important;
 }
+a[href*="netlify.com"],
+[id*="netlify"],
+[class*="netlify"],
+iframe[src*="netlify"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
